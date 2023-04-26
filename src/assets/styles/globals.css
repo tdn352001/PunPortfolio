@@ -1,0 +1,81 @@
+@tailwind base;
+
+@layer base {
+  html {
+    @apply text-white scroll-smooth lg:text-[80%] xl:text-[100%] 2xl:text-[120%];
+  }
+}
+
+@tailwind components;
+
+@layer components {
+  .transition-btn {
+    @apply transition-all ease-in-out duration-[600ms];
+  }
+}
+
+@tailwind utilities;
+
+/* ::-webkit-scrollbar {
+  height: 0.5rem;
+  width: 0.5rem;
+}
+
+::-webkit-scrollbar-track {
+  border-left-width: 3px;
+  border-right-width: 3px;
+  border-top-width: 0px;
+  border-bottom-width: 0px;
+  border-style: solid;
+  --tw-border-opacity: 1;
+  border-color: rgb(8 1 52 / var(--tw-border-opacity));
+  background-color: rgb(1 197 186 / var(--tw-bg-opacity));
+  --tw-bg-opacity: 0.4;
+}
+
+::-webkit-scrollbar-thumb {
+  border-left-width: 2px;
+  border-right-width: 2px;
+  border-top-width: 0px;
+  border-bottom-width: 0px;
+  border-style: solid;
+  --tw-border-opacity: 1;
+  border-color: rgb(8 1 52 / var(--tw-border-opacity));
+  --tw-bg-opacity: 1;
+  background-color: rgb(1 197 186 / var(--tw-bg-opacity));
+}
+
+::-webkit-scrollbar-thumb:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(28 170 162 / var(--tw-bg-opacity));
+} */
+
+::-webkit-scrollbar {
+  height: 0.5rem;
+  width: 0.5rem;
+}
+
+::-webkit-scrollbar-track {
+  border-left-width: 3px;
+  border-right-width: 3px;
+  border-top-width: 0px;
+  border-bottom-width: 0px;
+  border-style: solid;
+  border-color: black;
+  background-color: rgb(244 73 111 / 0.4);
+}
+
+::-webkit-scrollbar-thumb {
+  border-left-width: 2px;
+  border-right-width: 2px;
+  border-top-width: 0px;
+  border-bottom-width: 0px;
+  border-style: solid;
+  border-color: black;
+  background-color: rgb(244 73 111);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(225 35 77 / 1);
+}
